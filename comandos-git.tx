@@ -1,0 +1,14 @@
+git config --global init.defaultBranch main 
+git config --global color.ui auto 
+git config --global pull.ff only
+ 
+git config --global alias.st status 
+git config --global alias.co checkout 
+git config --global alias.br branch 
+git config --global alias.cm "commit -m" 
+git config --global alias.lg "log --graph --oneline --decorate --all" 
+git config --global alias.logall "log --oneline --graph --all --decorate"
+
+git remote add origin https://github.com/andune55/trabajoRuben.git
+git branch -M main
+git push -u origin main
